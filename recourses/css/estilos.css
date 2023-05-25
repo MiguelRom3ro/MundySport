@@ -1,0 +1,31 @@
+/* Clase para el color del Navbar */
+.colorNav {
+  background-color: #d5d5d5;
+}
+
+/* Clase para el color del Footer */
+.colorF {
+  background-color: black;
+}
+
+/* Clase para el color del texto del Footer */
+.textCF {
+  color: #d5d5d5;
+}
+
+/* Clase para el tamanio de letra del Footer */
+.fontSizeFooter {
+  font-size: smaller;
+}
+
+@font-face {
+    font-family: "newsport";
+    src: url("../fonts/newsport/NewsportDemoRegular.ttf");
+}
+
+h1{
+    font-family: "newsport", sans-serif;
+    font-weight: normal;
+}
+
+  
