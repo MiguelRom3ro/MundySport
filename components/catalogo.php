@@ -74,6 +74,8 @@
                             $i = $i + 1;
 
                         }
+                    }else{
+                        echo "No se encontraron productos existentes.";
                     }
 
                     $conexion->close();

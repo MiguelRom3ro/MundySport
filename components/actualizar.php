@@ -31,9 +31,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $imagen = $_FILES["imagen"];
     $imagen_nombre = mysqli_real_escape_string($conexion, $imagen["name"]);
     $imagen_temporal = $imagen["tmp_name"];
-    $imagen_destino = "recourses/db/img/" . $imagen_nombre;
+    $imagen_destino = "../recourses/db/img/" . $imagen_nombre;
 
-    if($imagen_destino == "recourses/db/img/"){
+    if($imagen_destino == "../recourses/db/img/"){
         $sql = "UPDATE productos SET nombre = '$nombre', marca = '$marca', descripcion = '$descripcion', precio = $precio WHERE id = $id";
         $res = $conexion->query($sql);
 
