@@ -22,8 +22,8 @@
 
     <!--A continuacion coloquen todo su codigo-->
     
-    <div class="redes">
-        <h2> <br> Siguenos en : </h2>
+    <div class="redes mt-4">
+        <h1 class="d-flex justify-content-center"> Siguenos en</h1>
         <ul class="Sociales">
             <li><a href="https://www.facebook.com/profile.php?id=100088228058533&mibextid=ZbWKwL/" target="blank">
                     <img src="../recourses/img/FaceIcon.png" width="70" height="70"></a></li>

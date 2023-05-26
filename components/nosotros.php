@@ -24,12 +24,15 @@
     <!--A continuacion coloquen todo su codigo-->
 
     <div class="container mt-4">
+      <div class="row mb-3">
+        <h1 class="d-flex justify-content-center">Nosotros</h1>
+      </div>
         <div class="card">
             <figure class="d-flex justify-content-center">
                 <img src="../recourses/img/nosotros.png">
             </figure>
             <div class="contenido">
-                <h2>Nosotros</h2>
+                <h3>¿Quienes somos?</h3>
                 <p id="textoOculto4" class="d-none"> Somos una tienda en línea especializada en la venta de tenis
                     deportivos de alta calidad. En nuestra tienda, encontrarás una amplia selección de marcas
                     reconocidas y productos que se adaptan a tus necesidades y preferencias.<br>
@@ -46,7 +49,7 @@
                 <img src="../recourses/img/mision.png">
             </figure>
             <div class="contenido">
-                <h2>Mision</h2>
+                <h3>Mision</h3>
                 <p id="textoOculto1" class="d-none">Nuestra misión es proporcionar a nuestros clientes los mejores tenis
                     deportivos del mercado, ofreciendo una experiencia de compra excepcional. Nos esforzamos por brindar
                     una amplia variedad de opciones para que encuentres el calzado perfecto que se ajuste a tus
@@ -61,7 +64,7 @@
                 <img src="../recourses/img/vision.png">
             </figure>
             <div class="contenido">
-                <h2>Vision</h2>
+                <h3>Vision</h3>
                 <p id="textoOculto2" class="d-none">Nuestra visión es convertirnos en la tienda en línea líder en la
                     venta de tenis deportivos, reconocida por ofrecer productos de calidad y una experiencia de compra
                     inigualable. Aspiramos a ser el destino preferido de los entusiastas del deporte y atletas de todas
@@ -78,7 +81,7 @@
                 <img src="../recourses/img/valores.png">
             </figure>
             <div class="contenido">
-                <h2>Valores</h2>
+                <h3>Valores</h3>
 
                 <p id="textoOculto3" class="d-none">1.- Calidad: Nos enfocamos en ofrecer tenis deportivos de alta
                     calidad que cumplan con los estándares más exigentes de rendimiento, durabilidad y comodidad.<br>
