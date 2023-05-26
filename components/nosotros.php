@@ -24,12 +24,12 @@
     <!--A continuacion coloquen todo su codigo-->
 
     <div class="container mt-4">
-      <div class="row mb-3">
-        <h1 class="d-flex justify-content-center">Nosotros</h1>
-      </div>
+        <div class="row mb-3">
+            <h1 class="d-flex justify-content-center">Nosotros</h1>
+        </div>
         <div class="card">
             <figure class="d-flex justify-content-center">
-                <img src="../recourses/img/nosotros.png">
+                <img src="../recourses/img/nosotros.png" width="280rem">
             </figure>
             <div class="contenido">
                 <h3>¿Quienes somos?</h3>
@@ -105,7 +105,7 @@
     <!--Arriba de este comentario en esta seccion-->
 
     <!--Footer-->
-    <br><br>
+    <br><br> <br>
     <?php
       include "footer.php";
     ?>

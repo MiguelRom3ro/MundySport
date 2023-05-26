@@ -2,7 +2,7 @@
 
 <nav class='navbar navbar-expand-lg colorNav d-flex ps-2'>
     <div class='container-fluid'>
-        <a class='navbar-brand' href='#'>
+        <a class='navbar-brand' href='../index.php'>
             <img src='../recourses/img/logoNav.png' alt='logo' height='40rem'>
         </a>
         <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent'
@@ -12,19 +12,19 @@
         <div class='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
                 <li class='nav-item'>
-                    <a class='nav-link active' aria-current='page' href='#'>Inicio</a>
+                    <a class='nav-link active' aria-current='page' href='../index.php'>Inicio</a>
                 </li>
                 <li class='nav-item'>
-                    <a class='nav-link' href='catalogo.php'>Catalogo</a>
+                    <a class='nav-link' href='../components/catalogo.php'>Catalogo</a>
                 </li>
                 <li class='nav-item'>
-                    <a class='nav-link' href='inventario.php'>Inventario</a>
+                    <a class='nav-link' href='../components/inventario.php'>Inventario</a>
                 </li>
                 <li class='nav-item'>
-                    <a class='nav-link' href='contacto.php'>Contacto</a>
+                    <a class='nav-link' href='../components/contacto.php'>Contacto</a>
                 </li>
                 <li class='nav-item'>
-                    <a class='nav-link' href='nosotros.php'>¿Quienes somos?</a>
+                    <a class='nav-link' href='../components/nosotros.php'>¿Quienes somos?</a>
                 </li>
             </ul>
             <form class='d-flex' role='search'>
@@ -51,6 +51,6 @@ document.getElementById("searchButton").addEventListener("click", function(event
         }
 
     // Redirige a la página de búsqueda con el valor de búsqueda
-    window.location.href = "busqueda.php?search=" + encodeURIComponent(search);
+    window.location.href = "../components/busqueda.php?search=" + encodeURIComponent(search);
 });
 </script>
