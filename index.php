@@ -14,26 +14,6 @@
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
-
-    <!--Estilos personalizados necesarios-->
-    <style>
-      /* Clase para el color del Navbar */
-      .colorNav {
-        background-color: #d5d5d5;
-      }
-      /* Clase para el color del Footer */
-      .colorF {
-        background-color: black;
-      }
-      /* Clase para el color del texto del Footer */
-      .textCF {
-        color: #d5d5d5;
-      }
-      /* Clase para el tamanio de letra del Footer */
-      .fontSizeFooter {
-        font-size: smaller;
-      }
-    </style>
   </head>
 
   <body>
