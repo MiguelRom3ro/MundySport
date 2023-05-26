@@ -19,13 +19,35 @@
 }
 
 @font-face {
-    font-family: "newsport";
-    src: url("../fonts/newsport/NewsportDemoRegular.ttf");
+  font-family: "newsport";
+  src: url("../fonts/newsport/NewsportDemoRegular.ttf");
 }
 
-h1{
-    font-family: "newsport", sans-serif;
-    font-weight: normal;
+h1 {
+  font-family: "newsport", sans-serif;
+  font-weight: normal;
 }
 
-  
+/* Estilos Redes Sociales*/
+
+.Sociales {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.Sociales li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes {
+  background-color: #d5d5d5 rgb(180, 187, 187);
+}
+.redes h2 {
+  font-family: "Times New Roman";
+  text-align: center;
+  font-weight: bold;
+}

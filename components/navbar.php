@@ -20,6 +20,9 @@
                 <li class='nav-item'>
                     <a class='nav-link' href='inventario.php'>Inventario</a>
                 </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='contacto.php'>Contacto</a>
+                </li>
             </ul>
             <form class='d-flex' role='search'>
                 <input id="searchInput" class='form-control me-2' type='search' placeholder='Buscar'
